@@ -25,7 +25,7 @@ const About = () => {
                 </div>
                 
                 <p className="text-gray-600 mb-6">
-                  Hypertension is a silent killer in Ghana, affecting over 30% of adults. Many people lack:
+                  Hypertension is a silent killer in Ghana, and it has increased significantly in the last decade. Many people lack:
                 </p>
                 
                 <ul className="space-y-4">
@@ -39,7 +39,7 @@ const About = () => {
                     <span className="h-6 w-6 rounded-full bg-red-100 flex items-center justify-center mr-3 mt-0.5 flex-shrink-0">
                       <span className="h-2 w-2 rounded-full bg-red-500"></span>
                     </span>
-                    <span className="text-gray-700">Access to timely medical intervention when needed</span>
+                    <span className="text-gray-700">Understanding of their health status (e.g., risk scores).</span>
                   </li>
                   <li className="flex items-start">
                     <span className="h-6 w-6 rounded-full bg-red-100 flex items-center justify-center mr-3 mt-0.5 flex-shrink-0">
@@ -51,7 +51,7 @@ const About = () => {
                     <span className="h-6 w-6 rounded-full bg-red-100 flex items-center justify-center mr-3 mt-0.5 flex-shrink-0">
                       <span className="h-2 w-2 rounded-full bg-red-500"></span>
                     </span>
-                    <span className="text-gray-700">Connections to healthcare providers in rural areas</span>
+                    <span className="text-gray-700">Connections to healthcare providers for timely intervention</span>
                   </li>
                 </ul>
                 
@@ -65,7 +65,7 @@ const About = () => {
               
               <div className="bg-gradient-to-r from-red-500 to-red-600 p-4">
                 <p className="text-white text-center font-medium">
-                  1 in 3 Ghanaian adults has high blood pressure, many undiagnosed
+                  1 in 4 Ghanaian adults has high blood pressure, many undiagnosed
                 </p>
               </div>
             </div>
@@ -91,25 +91,25 @@ const About = () => {
                     <span className="h-6 w-6 rounded-full bg-cardio-green-100 flex items-center justify-center mr-3 mt-0.5 flex-shrink-0">
                       <span className="h-2 w-2 rounded-full bg-cardio-green-500"></span>
                     </span>
-                    <span className="text-gray-700">AI-powered blood pressure monitoring and analysis</span>
+                    <span className="text-gray-700">Smart logging and tracking of B.P. numbers with instant feedback </span>
                   </li>
                   <li className="flex items-start">
                     <span className="h-6 w-6 rounded-full bg-cardio-green-100 flex items-center justify-center mr-3 mt-0.5 flex-shrink-0">
                       <span className="h-2 w-2 rounded-full bg-cardio-green-500"></span>
                     </span>
-                    <span className="text-gray-700">Automated alerts to community health workers about at-risk patients</span>
+                    <span className="text-gray-700">Automated alerts and reminders to achieve adherence</span>
                   </li>
                   <li className="flex items-start">
                     <span className="h-6 w-6 rounded-full bg-cardio-green-100 flex items-center justify-center mr-3 mt-0.5 flex-shrink-0">
                       <span className="h-2 w-2 rounded-full bg-cardio-green-500"></span>
                     </span>
-                    <span className="text-gray-700">Personalized health insights and recommendations</span>
+                    <span className="text-gray-700">Personalized health insights and recommendations grounded in the official CVD Guidelines</span>
                   </li>
                   <li className="flex items-start">
                     <span className="h-6 w-6 rounded-full bg-cardio-green-100 flex items-center justify-center mr-3 mt-0.5 flex-shrink-0">
                       <span className="h-2 w-2 rounded-full bg-cardio-green-500"></span>
                     </span>
-                    <span className="text-gray-700">Direct connection to healthcare professionals</span>
+                    <span className="text-gray-700">Direct connection to healthcare professionals for timely intervention</span>
                   </li>
                 </ul>
                 

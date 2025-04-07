@@ -30,35 +30,35 @@ const Impact = () => {
     <section id="impact" className="py-20 bg-gradient-to-b from-gray-50 to-white">
       <div className="container mx-auto px-4">
         <div className="max-w-3xl mx-auto text-center mb-16">
-          <h2 className="section-title">Real Impact, Real Stories</h2>
+          <h2 className="section-title">The Vision? Preventing the Preventable Deaths and Promoting Socio-Economic Development</h2>
           <p className="section-subtitle">
-            See how CardioMed is changing lives across Ghana with AI-powered hypertension management.
+            See how CardioMed will change lives across Ghana with AI-powered hypertension management.
           </p>
         </div>
         
         {/* Impact Statistics */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-20">
           <div className="bg-gradient-to-br from-cardio-blue-600 to-cardio-blue-700 rounded-2xl p-8 text-white text-center shadow-elevated transform transition-transform hover:scale-105">
-            <h3 className="text-5xl font-bold mb-2">45%</h3>
-            <p className="text-xl font-medium mb-4">Reduction in Emergencies</p>
+            <h3 className="text-5xl font-bold mb-2">15,000–20,000</h3>
+            <p className="text-xl font-medium mb-4">Annual Deaths</p>
             <p className="text-white/80">
-              CardioMed has helped reduce hypertension-related emergency cases by 45% in pilot communities.
+              CardioMed will help reduce hypertension-related emergency cases such as strokes and heart attacks.
             </p>
           </div>
           
           <div className="bg-gradient-to-br from-cardio-green-600 to-cardio-green-700 rounded-2xl p-8 text-white text-center shadow-elevated transform transition-transform hover:scale-105">
-            <h3 className="text-5xl font-bold mb-2">72%</h3>
-            <p className="text-xl font-medium mb-4">Improved Adherence</p>
+            <h3 className="text-5xl font-bold mb-2">20–30%</h3>
+            <p className="text-xl font-medium mb-4">Hospitalizations Reduction </p>
             <p className="text-white/80">
-              Patients using CardioMed show 72% better adherence to medication and lifestyle recommendations.
+              CardioMed will help reduce hospitalizations by 20-30%.
             </p>
           </div>
           
           <div className="bg-gradient-to-br from-cardio-blue-800 to-cardio-green-800 rounded-2xl p-8 text-white text-center shadow-elevated transform transition-transform hover:scale-105">
-            <h3 className="text-5xl font-bold mb-2">12K+</h3>
-            <p className="text-xl font-medium mb-4">Active Users</p>
+            <h3 className="text-5xl font-bold mb-2">$10–15 million</h3>
+            <p className="text-xl font-medium mb-4">Healthcare Cost Savings</p>
             <p className="text-white/80">
-              Over 12,000 Ghanaians are actively using CardioMed to manage their hypertension.
+            CardioMed will save $10–15 million annually in healthcare costs .
             </p>
           </div>
         </div>
@@ -74,7 +74,7 @@ const Impact = () => {
               <h3 className="text-3xl font-bold text-gray-900 mb-6">Transforming Healthcare in Kumasi</h3>
               
               <p className="text-gray-600 mb-6">
-                In a six-month pilot program in Kumasi, CardioMed was used by 2,500 patients and 50 community health workers. The results were remarkable:
+              In a 1-week pilot program in Kumasi, CardioMed was tested by 55 patients and evaluated by 10 medical professionals and community health workers. The outcomes demonstrate its transformative potential:
               </p>
               
               <ul className="space-y-4 mb-8">
@@ -84,7 +84,7 @@ const Impact = () => {
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                     </svg>
                   </div>
-                  <span className="text-gray-700">45% reduction in hypertension-related emergency visits</span>
+                  <span className="text-gray-700">85% of patients expressed strong interest in purchasing home blood pressure monitors and adopting CardioMed long-term (Over 4 in 5 users are ready to invest in their health!)</span>
                 </li>
                 <li className="flex items-start">
                   <div className="h-6 w-6 rounded-full bg-cardio-green-100 flex items-center justify-center mr-3 mt-0.5 flex-shrink-0">
@@ -92,7 +92,7 @@ const Impact = () => {
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                     </svg>
                   </div>
-                  <span className="text-gray-700">320 critical events detected early and prevented</span>
+                  <span className="text-gray-700">100% Endorsement from Healthcare Experts (All 10 medical professionals and CHWs confirmed the app’s clinical value)</span>
                 </li>
                 <li className="flex items-start">
                   <div className="h-6 w-6 rounded-full bg-cardio-green-100 flex items-center justify-center mr-3 mt-0.5 flex-shrink-0">
@@ -100,7 +100,7 @@ const Impact = () => {
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                     </svg>
                   </div>
-                  <span className="text-gray-700">89% of users reported improved understanding of their condition</span>
+                  <span className="text-gray-700">80% Boost in Health Literacy (Users reported significantly improved understanding of their condition through AI-driven analytics and personalized recommendations.)</span>
                 </li>
                 <li className="flex items-start">
                   <div className="h-6 w-6 rounded-full bg-cardio-green-100 flex items-center justify-center mr-3 mt-0.5 flex-shrink-0">
@@ -108,13 +108,13 @@ const Impact = () => {
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                     </svg>
                   </div>
-                  <span className="text-gray-700">72% increase in medication adherence</span>
+                  <span className="text-gray-700">Partnership Opportunity Secured (1 leading non-profit health organization has committed to scaling CardioMed across Ghanaian communities.)</span>
                 </li>
               </ul>
               
               <div className="bg-gray-100 rounded-xl p-4">
                 <blockquote className="italic text-gray-700">
-                  "CardioMed has revolutionized how we approach hypertension management in our community. It's not just an app – it's saving lives."
+                  "CardioMed has a massive potential to revolutionize how every individual approach hypertension management. It's not just an app – it's saving lives."
                 </blockquote>
                 <div className="mt-2 flex items-center">
                   <div className="h-10 w-10 rounded-full bg-gray-300 overflow-hidden mr-3">
@@ -125,8 +125,8 @@ const Impact = () => {
                     />
                   </div>
                   <div>
-                    <p className="font-medium text-gray-900">Dr. Ama Boateng</p>
-                    <p className="text-sm text-gray-500">Chief Physician, Kumasi General Hospital</p>
+                    <p className="font-medium text-gray-900">Osei Boateng</p>
+                    <p className="text-sm text-gray-500">CEO, OKB Hope Foundation</p>
                   </div>
                 </div>
               </div>

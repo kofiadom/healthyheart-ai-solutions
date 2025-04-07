@@ -1,10 +1,10 @@
 
-import { 
-  Scan, 
-  Brain, 
-  Bell, 
-  Users, 
-  MessageSquare, 
+import {
+  Scan,
+  Brain,
+  Bell,
+  Users,
+  MessageSquare,
   AlertTriangle
 } from 'lucide-react';
 
@@ -51,11 +51,11 @@ const Features = () => {
             CardioMed combines cutting-edge AI technology with healthcare expertise to deliver a comprehensive hypertension management solution.
           </p>
         </div>
-        
+
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {features.map((feature, index) => (
-            <div 
-              key={index} 
+            <div
+              key={index}
               className="feature-card group"
             >
               <div className="mb-6 relative">
@@ -69,7 +69,7 @@ const Features = () => {
             </div>
           ))}
         </div>
-        
+
         {/* App Preview */}
         <div className="mt-24 relative">
           <div className="absolute inset-0 bg-gradient-to-r from-cardio-blue-100 to-cardio-green-100 rounded-3xl transform -rotate-1 scale-105 opacity-30"></div>
@@ -80,9 +80,9 @@ const Features = () => {
                   Experience the CardioMed App
                 </h3>
                 <p className="text-lg text-gray-600 mb-8">
-                  Our intuitive mobile application makes blood pressure monitoring simple, informative, and effective. With real-time insights and AI-powered recommendations, managing hypertension has never been easier.
+                  Our mobile application will make blood pressure monitoring simple, informative, and effective. With planned features like AI risk analysis, smart reminders, and healthcare professional connections, CardioMed aims to revolutionize hypertension management in Ghana.
                 </p>
-                
+
                 <ul className="space-y-4 mb-8">
                   <li className="flex items-start">
                     <div className="h-6 w-6 rounded-full bg-cardio-green-100 flex items-center justify-center mr-3 mt-0.5 flex-shrink-0">
@@ -98,7 +98,7 @@ const Features = () => {
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                       </svg>
                     </div>
-                    <span className="text-gray-700">Works offline to accommodate limited connectivity</span>
+                    <span className="text-gray-700">Your smart blood pressure logger and analytics assistant</span>
                   </li>
                   <li className="flex items-start">
                     <div className="h-6 w-6 rounded-full bg-cardio-green-100 flex items-center justify-center mr-3 mt-0.5 flex-shrink-0">
@@ -106,23 +106,23 @@ const Features = () => {
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                       </svg>
                     </div>
-                    <span className="text-gray-700">Multilingual support including local Ghanaian languages</span>
+                    <span className="text-gray-700">Get personalized reminders for medication and recommendations for lifestyle changes</span>
                   </li>
                 </ul>
-                
+
                 <div className="flex space-x-4">
-                  <a 
-                    href="#" 
+                  <a
+                    href="#"
                     className="flex items-center justify-center bg-black text-white py-3 px-6 rounded-xl hover:bg-gray-800 transition-colors"
                   >
                     <svg className="h-6 w-6 mr-2" viewBox="0 0 24 24" fill="currentColor">
                       <path d="M17.5646 12.3664C17.533 10.3689 18.8881 8.8646 20.3583 7.9783C19.3585 6.5446 17.7331 5.6738 16.0423 5.6074C14.2637 5.4248 12.5652 6.6239 11.6608 6.6239C10.7365 6.6239 9.38257 5.628 7.90538 5.6578C5.9542 5.7148 4.19562 6.8263 3.24587 8.5339C1.16737 12.0581 2.6968 17.2698 4.6688 20.09C5.66855 21.474 6.81775 23.0037 8.31855 22.9441C9.77913 22.8797 10.3426 22.0055 12.0987 22.0055C13.8349 22.0055 14.3687 22.9441 15.9088 22.9096C17.4913 22.8797 18.4761 21.5225 19.4461 20.1284C20.2556 19.023 20.8592 17.7882 21.2161 16.4696C19.3881 15.6874 17.5967 14.1889 17.5646 12.3664Z" />
                       <path d="M15.1181 4.2328C16.0025 3.17239 16.491 1.82445 16.4945 0.449951C15.1356 0.496561 13.851 1.0255 12.8524 1.94567C11.8833 2.81519 11.362 4.06499 11.3341 5.35992C12.7025 5.38556 14.1787 4.90086 15.1181 4.2328Z" />
                     </svg>
-                    App Store
+                    App Store (Under Development)
                   </a>
-                  <a 
-                    href="#" 
+                  <a
+                    href="#"
                     className="flex items-center justify-center bg-black text-white py-3 px-6 rounded-xl hover:bg-gray-800 transition-colors"
                   >
                     <svg className="h-6 w-6 mr-2" viewBox="0 0 24 24" fill="currentColor">
@@ -131,11 +131,11 @@ const Features = () => {
                       <path d="M23.2608 10.8129L18.7692 8.36961L12.9307 11.9865L19.2555 18.6027L23.2608 16.3507C23.7136 16.1167 24.0001 15.6745 24.0001 15.1801V11.9866C24.0022 11.4922 23.7195 11.0469 23.2608 10.8129Z" />
                       <path d="M12.1429 12.8494L3.04434 24.0001L13.5075 14.7041L12.1429 12.8494Z" />
                     </svg>
-                    Google Play
+                    Google Play (Under Development)
                   </a>
                 </div>
               </div>
-              
+
               <div className="relative flex justify-center items-center p-8">
                 <div className="relative max-w-xs">
                   {/* Phone frame */}
@@ -144,7 +144,7 @@ const Features = () => {
                     <div className="absolute top-0 left-0 right-0 h-6 bg-black rounded-t-[3rem] flex justify-center items-center">
                       <div className="w-16 h-1 bg-gray-800 rounded-full"></div>
                     </div>
-                    
+
                     {/* App Screenshot */}
                     <div className="rounded-[2.5rem] overflow-hidden relative bg-white">
                       {/* Mockup of the CardioMed app interface */}
@@ -161,7 +161,7 @@ const Features = () => {
                             <h2 className="text-xl font-bold">Kwame Mensah</h2>
                           </div>
                         </div>
-                        
+
                         <div className="p-4">
                           <div className="bg-white rounded-xl shadow-md p-4 -mt-8 border border-gray-100">
                             <h4 className="text-sm font-medium text-gray-500 mb-1">Your Latest Reading</h4>
@@ -171,7 +171,7 @@ const Features = () => {
                             </div>
                             <div className="text-xs text-gray-500">Recorded today at 9:30 AM</div>
                           </div>
-                          
+
                           <h4 className="font-medium mt-6 mb-3">Quick Actions</h4>
                           <div className="grid grid-cols-2 gap-3">
                             <div className="bg-cardio-blue-50 p-3 rounded-lg">
@@ -187,7 +187,7 @@ const Features = () => {
                               <div className="text-sm font-medium">AI Chat</div>
                             </div>
                           </div>
-                          
+
                           <h4 className="font-medium mt-6 mb-3">Health Insights</h4>
                           <div className="bg-cardio-blue-50 p-4 rounded-lg">
                             <div className="flex items-center mb-2">
