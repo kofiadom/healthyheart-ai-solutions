@@ -96,7 +96,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <h4 className="font-medium text-gray-800 mb-1">Email</h4>
-                    <p className="text-gray-600">kadom@gmail.com</p>
+                    <p className="text-gray-600">adomkofi2000@gmail.com</p>
                   </div>
                 </div>
               </div>
@@ -173,6 +173,7 @@ const Contact = () => {
                     onChange={handleChange}
                     className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-cardio-blue-500 focus:border-cardio-blue-500 outline-none"
                     required
+                    readOnly
                   />
                 </div>
 
