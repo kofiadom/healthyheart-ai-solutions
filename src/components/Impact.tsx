@@ -1,7 +1,9 @@
 
-import { Star } from 'lucide-react';
+import { Star, ChevronLeft, ChevronRight } from 'lucide-react';
+import React, { useState } from 'react';
 
 const Impact = () => {
+  const [imageIndex, setImageIndex] = useState(0)
   const testimonials = [
     {
       quote: "CardioMed has transformed how I manage my hypertension. The AI alerts have helped me prevent two potential crises.",
@@ -25,6 +27,25 @@ const Impact = () => {
       image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=387&q=80"
     }
   ];
+
+
+  const images = [
+    'https://images.unsplash.com/photo-1486825586573-7131f7991bdd?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjd8fGhlYWx0aGNhcmV8ZW58MHx8MHx8fDA%3D',
+    'https://images.unsplash.com/photo-1639154968821-6dbc3efb8d23?q=80&w=2574&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
+  ]
+
+  const goToPrevious = () => {
+    setImageIndex((prevIndex) =>
+      prevIndex === 0 ? images.length - 1 : prevIndex - 1
+    );
+  };
+
+  const goToNext = () => {
+    setImageIndex((prevIndex) =>
+      prevIndex === images.length - 1 ? 0 : prevIndex + 1
+    );
+  };
+
 
   return (
     <section id="impact" className="py-20 bg-gradient-to-b from-gray-50 to-white">
@@ -126,13 +147,19 @@ const Impact = () => {
             </div>
 
             <div className="bg-cardio-blue-100/30 flex items-center justify-center p-8">
-              <div className="relative w-4/5">
+              <div className='flex justify-start items-center'>
+                <ChevronLeft className='bg-black/20' size={40} onClick={goToPrevious} />
+              </div>
+              <div className="flex justify-center items-center w-4/5">
                 <img
-                  src="https://images.unsplash.com/photo-1486825586573-7131f7991bdd?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjd8fGhlYWx0aGNhcmV8ZW58MHx8MHx8fDA%3D"
+                  src={images[imageIndex]}
                   alt="Healthcare worker with patient in Ghana"
-                  className="rounded-xl shadow-xl w-full h-full object-cover"
+                  className="rounded-xl shadow-xl w-full p-2 object-cover"
                 />
 
+              </div>
+              <div className='flex justify-start items-center'>
+                <ChevronRight className='bg-black/20' size={40} onClick={goToNext} />
               </div>
             </div>
           </div>
@@ -159,8 +186,6 @@ const Impact = () => {
                 </blockquote>
 
                 <div className="flex items-center">
-                  <div className="h-12 w-12 rounded-full overflow-hidden mr-4 bg-black/30">
-                  </div>
                   <div>
                     <p className="font-medium text-gray-900">{testimonial.author}</p>
                     <p className="text-sm text-gray-500">{testimonial.role}</p>
@@ -175,13 +200,17 @@ const Impact = () => {
         <div>
           <h3 className="text-xl font-medium text-center text-gray-700 mb-8">Trusted by Leading Organizations</h3>
 
-          <div className="flex flex-wrap justify-center items-center gap-12 opacity-70">
+          <div className="flex flex-wrap justify-center items-center gap-12 opacity-70 space-x-7">
             <div className="w-auto h-auto">
               <img
                 src="/okb.jpeg"
                 alt="okb foundation"
                 className="h-full w-full object-cover"
               />
+            </div>
+
+            <div className='flex justify-center items-center'>
+              <a href='http://worldwide-studios.org' className='text-4xl font-bold'>Worldwide-Studios</a>
             </div>
 
           </div>
