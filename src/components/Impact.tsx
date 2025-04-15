@@ -30,8 +30,10 @@ const Impact = () => {
 
 
   const images = [
-    'https://images.unsplash.com/photo-1486825586573-7131f7991bdd?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjd8fGhlYWx0aGNhcmV8ZW58MHx8MHx8fDA%3D',
-    'https://images.unsplash.com/photo-1639154968821-6dbc3efb8d23?q=80&w=2574&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
+    '/img1.jpg',
+    '/img2.jpg',
+    '/img3.jpg',
+    '/img4.jpg'
   ]
 
   const goToPrevious = () => {
@@ -150,7 +152,7 @@ const Impact = () => {
               <div className='flex justify-start items-center'>
                 <ChevronLeft className='bg-black/20' size={40} onClick={goToPrevious} />
               </div>
-              <div className="flex justify-center items-center w-4/5">
+              <div className="flex justify-center items-center w-5/5">
                 <img
                   src={images[imageIndex]}
                   alt="Healthcare worker with patient in Ghana"
