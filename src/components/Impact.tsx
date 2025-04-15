@@ -6,23 +6,23 @@ const Impact = () => {
   const [imageIndex, setImageIndex] = useState(0)
   const testimonials = [
     {
-      quote: "CardioMed has transformed how I manage my hypertension. The AI alerts have helped me prevent two potential crises.",
-      author: "Abena Osei",
-      role: "Patient, Kumasi",
+      quote: "CardioMed will transform how I manage my hypertension. The scanning feature is very smart and makes logging BP numbers easier and 10x faster than recording it manually on paper.",
+      author: "Kwame Mensah",
+      role: "User, Kumasi",
       rating: 5,
       image: "https://images.unsplash.com/photo-1531123897727-8f129e1688ce?ixlib=rb-4.0.3&auto=format&fit=crop&w=387&q=80"
     },
     {
-      quote: "As a community health worker, this app has allowed me to monitor multiple patients efficiently and prioritize those who need immediate attention.",
-      author: "Dr. Emmanuel Darko",
-      role: "Community Health Worker, Accra",
+      quote: "Any user will be able to get a better understanding of their health status after they have taken their blood pressure, and will not miss out on medication reminders.",
+      author: "Kwame Adu Boampong",
+      role: "Staff, OKB Hope Foundation",
       rating: 5,
       image: "https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?ixlib=rb-4.0.3&auto=format&fit=crop&w=870&q=80"
     },
     {
-      quote: "The personalized health insights are incredibly accurate. It's like having a cardiologist in my pocket at all times.",
-      author: "Kofi Mensah",
-      role: "Patient, Tamale",
+      quote: "The personalized health insights are very helpful. It gives an instant lifestyle recommendations and explanations that are easy to understand.",
+      author: "Justice Awulley-Quaye",
+      role: "Staff, OKB Hope Foundation",
       rating: 4,
       image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=387&q=80"
     }
@@ -95,7 +95,7 @@ const Impact = () => {
               <h3 className="text-3xl font-bold text-gray-900 mb-6">Transforming Healthcare in Kumasi</h3>
 
               <p className="text-gray-600 mb-6">
-                In a 1-week pilot program in Kumasi, CardioMed was tested by 55 patients and evaluated by 10 medical professionals and community health workers. The outcomes demonstrate its transformative potential:
+                In a 1-week pilot program in Kumasi, CardioMed was tested by 40 users and evaluated by 10 medical professionals and community health workers. The outcomes demonstrate its transformative potential:
               </p>
 
               <ul className="space-y-4 mb-8">
@@ -105,7 +105,7 @@ const Impact = () => {
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                     </svg>
                   </div>
-                  <span className="text-gray-700">85% of patients expressed strong interest in purchasing home blood pressure monitors and adopting CardioMed long-term (Over 4 in 5 users are ready to invest in their health!)</span>
+                  <span className="text-gray-700">85% of users expressed strong interest in purchasing home blood pressure monitors and adopting CardioMed long-term (Over 4 in 5 users are ready to invest in their health!)</span>
                 </li>
                 <li className="flex items-start">
                   <div className="h-6 w-6 rounded-full bg-cardio-green-100 flex items-center justify-center mr-3 mt-0.5 flex-shrink-0">
@@ -135,11 +135,11 @@ const Impact = () => {
 
               <div className="bg-gray-100 rounded-xl p-4">
                 <blockquote className="italic text-gray-700">
-                  "CardioMed has a massive potential to revolutionize how every individual approach hypertension management. It's not just an app – it's saving lives."
+                  "CardioMed has a massive potential to revolutionize how every individual approach hypertension management. It's not just an app – it'll be life saver."
                 </blockquote>
                 <div className="mt-2 flex items-center">
                   <div>
-                    <p className="font-bold text-black">Osei Boateng</p>
+                    <p className="font-bold text-black">Osei Kwadwo Boateng</p>
                     <p className="text-sm text-gray-500">CEO, OKB Hope Foundation</p>
                   </div>
                 </div>
@@ -167,7 +167,7 @@ const Impact = () => {
 
         {/* Testimonials */}
         <div className="mb-12">
-          <h3 className="text-3xl font-bold text-center text-gray-900 mb-12">What Our Users Say</h3>
+          <h3 className="text-3xl font-bold text-center text-gray-900 mb-12">What Our Users and Reviewers Say</h3>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {testimonials.map((testimonial, index) => (
@@ -210,7 +210,7 @@ const Impact = () => {
             </div>
 
             <div className='flex justify-center items-center'>
-              <a href='http://worldwide-studios.org' className='text-4xl font-bold'>Worldwide-Studios</a>
+              <a href='http://worldwide-studios.org' className='text-4xl font-bold'>worldwide-studios.org</a>
             </div>
 
           </div>

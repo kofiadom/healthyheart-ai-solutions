@@ -16,7 +16,7 @@ const CallToAction = () => {
           </h2>
           
           <p className="text-lg md:text-xl text-blue-100 mb-8 max-w-3xl mx-auto">
-            CardioMed is revolutionizing how Ghanaians manage hypertension. 
+            CardioMed will revolutionize how Ghanaians manage hypertension. 
             Be part of this healthcare transformation and take control of your heart health today.
           </p>
           
@@ -30,7 +30,7 @@ const CallToAction = () => {
             
             <Button 
               variant="outline" 
-              className="border-2 border-white hover:bg-white/10 text-white px-6 py-3 h-auto rounded-full text-lg font-medium transition-all duration-300"
+              className="border-2 border-white hover:bg-white/10 text-cardio-blue-700 px-6 py-3 h-auto rounded-full text-lg font-medium transition-all duration-300"
             >
               Partner With Us
             </Button>
