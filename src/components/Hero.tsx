@@ -1,5 +1,4 @@
-
-import { ArrowRight } from 'lucide-react';
+import { ArrowRight, Play } from 'lucide-react';
 import { Button } from "@/components/ui/button";
 
 const Hero = () => {
@@ -15,26 +14,39 @@ const Hero = () => {
           {/* Content */}
           <div className="w-full lg:w-1/2 text-center lg:text-left mb-12 lg:mb-0 animate-fade-in">
             <div className="inline-block px-4 py-1.5 mb-6 rounded-full bg-cardio-blue-50 border border-cardio-blue-200">
-              <span className="text-cardio-blue-700 font-medium text-sm">AI-Powered Healthcare Solution</span>
+              <span className="text-cardio-blue-700 font-medium text-sm">🚀 Coming Soon - Join the Waitlist</span>
             </div>
 
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
-              AI-Powered Hypertension Management for
-              <span className="bg-clip-text text-transparent bg-gradient-to-r from-cardio-blue-600 to-cardio-green-600"> Every Ghanaian</span>
+              Take Control of Your Blood Pressure with
+              <span className="bg-clip-text text-transparent bg-gradient-to-r from-cardio-blue-600 to-cardio-green-600"> Smart AI Guidance</span>
             </h1>
 
             <p className="text-lg md:text-xl text-gray-600 mb-8 max-w-xl mx-auto lg:mx-0">
-              Revolutionizing hypertension care in Ghana with intelligent logging, monitoring, timely alerts, and personalized health insights.
+              Scan your BP readings, get instant AI analysis, receive personalized health tips, and connect with healthcare professionals - all designed for Ghanaians.
             </p>
 
             <div className="flex flex-col sm:flex-row items-center space-y-4 sm:space-y-0 sm:space-x-4 justify-center lg:justify-start">
               <Button className="btn-primary w-full sm:w-auto group" size="lg">
-                Get Started
+                Join Waitlist - Get Early Access
                 <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
               </Button>
-              <Button variant="outline" className="w-full sm:w-auto border-cardio-blue-300" size="lg">
-                Learn More
+              <Button variant="outline" className="w-full sm:w-auto border-cardio-blue-300 group" size="lg">
+                <Play className="mr-2 h-5 w-5" />
+                Watch Demo
               </Button>
+            </div>
+
+            {/* Trust indicators */}
+            <div className="mt-8 flex flex-col sm:flex-row items-center justify-center lg:justify-start space-y-2 sm:space-y-0 sm:space-x-6 text-sm text-gray-500">
+              <div className="flex items-center">
+                <span className="h-2 w-2 bg-green-500 rounded-full mr-2"></span>
+                Tested by 40+ users in Kumasi
+              </div>
+              <div className="flex items-center">
+                <span className="h-2 w-2 bg-green-500 rounded-full mr-2"></span>
+                Endorsed by healthcare professionals
+              </div>
             </div>
           </div>
 
@@ -81,21 +93,24 @@ const Hero = () => {
           </div>
         </div>
 
-        {/* Stats */}
+        {/* Enhanced Stats */}
         <div className="mt-16 grid grid-cols-1 md:grid-cols-3 gap-8">
           <div className="bg-white rounded-xl p-8 shadow-card border border-gray-100 text-center animate-fade-in-up" style={{ animationDelay: "0.1s" }}>
             <h3 className="text-5xl md:text-6xl font-bold text-cardio-blue-600 mb-3">27%-34%</h3>
             <p className="text-lg md:text-xl text-gray-600">Prevalence of hypertension among Ghanaian adults</p>
+            <p className="text-sm text-gray-500 mt-2">That's 1 in 3 adults affected</p>
           </div>
 
           <div className="bg-white rounded-xl p-8 shadow-card border border-gray-100 text-center animate-fade-in-up" style={{ animationDelay: "0.2s" }}>
             <h3 className="text-5xl md:text-6xl font-bold text-cardio-blue-600 mb-3">35%</h3>
             <p className="text-lg md:text-xl text-gray-600">Ghanaians are aware of their status</p>
+            <p className="text-sm text-gray-500 mt-2">Most don't know they have high BP</p>
           </div>
 
           <div className="bg-white rounded-xl p-8 shadow-card border border-gray-100 text-center animate-fade-in-up" style={{ animationDelay: "0.3s" }}>
             <h3 className="text-5xl md:text-6xl font-bold text-cardio-blue-600 mb-3">22%</h3>
             <p className="text-lg md:text-xl text-gray-600">Hypertension patients are on treatment</p>
+            <p className="text-sm text-gray-500 mt-2">Huge treatment gap exists</p>
           </div>
         </div>
       </div>
