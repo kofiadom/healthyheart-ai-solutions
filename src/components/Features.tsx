@@ -96,19 +96,8 @@ const Features = () => {
                   Experience the CardioMed App
                 </h3>
                 <p className="text-lg text-gray-600 mb-8">
-                  Our mobile application will make blood pressure monitoring simple, informative, and effective. With planned features like AI risk analysis, smart reminders, and healthcare professional connections, CardioMed aims to revolutionize hypertension management in Ghana.
+                  Our mobile application will make blood pressure monitoring simple, informative, and effective. With a user-friendly interface designed for all ages and tech levels, CardioMed features planned AI risk analysis, smart reminders, and healthcare professional connections to revolutionize hypertension management in Ghana.
                 </p>
-
-                <ul className="space-y-4 mb-8">
-                  <li className="flex items-start">
-                    <div className="h-6 w-6 rounded-full bg-cardio-green-100 flex items-center justify-center mr-3 mt-0.5 flex-shrink-0">
-                      <svg className="h-4 w-4 text-cardio-green-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                      </svg>
-                    </div>
-                    <span className="text-gray-700">User-friendly interface designed for all ages and tech levels</span>
-                  </li>
-                </ul>
 
                 <div className="bg-gray-50 rounded-xl p-6 mb-8">
                   <h4 className="font-bold text-gray-800 mb-2">Join Our Waitlist</h4>
