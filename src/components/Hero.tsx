@@ -45,7 +45,7 @@ const Hero = () => {
               </div>
               <div className="flex items-center">
                 <span className="h-2 w-2 bg-green-500 rounded-full mr-2"></span>
-                Endorsed by healthcare professionals
+                AI-powered health insights
               </div>
             </div>
           </div>

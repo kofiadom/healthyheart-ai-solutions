@@ -114,7 +114,7 @@ const Features = () => {
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                       </svg>
                     </div>
-                    <span className="text-gray-700">Works offline - no internet required for basic features</span>
+                    <span className="text-gray-700">Requires internet connection for AI features and data sync</span>
                   </li>
                   <li className="flex items-start">
                     <div className="h-6 w-6 rounded-full bg-cardio-green-100 flex items-center justify-center mr-3 mt-0.5 flex-shrink-0">
@@ -122,7 +122,7 @@ const Features = () => {
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                       </svg>
                     </div>
-                    <span className="text-gray-700">Available in English and local Ghanaian languages</span>
+                    <span className="text-gray-700">Available in English with clear, simple interface</span>
                   </li>
                 </ul>
 
