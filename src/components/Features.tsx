@@ -1,6 +1,6 @@
 import {
   Scan,
-  Brain,
+  Zap,
   Bell,
   Users,
   MessageSquare,
@@ -19,7 +19,7 @@ const Features = () => {
       benefit: "Save time and reduce errors"
     },
     {
-      icon: <Brain className="h-10 w-10 text-cardio-blue-500" />,
+      icon: <Zap className="h-10 w-10 text-cardio-blue-500" />,
       title: "Instant AI Analysis",
       description: "Get immediate feedback on your readings with personalized risk assessment based on Ghana's cardiovascular disease guidelines.",
       benefit: "Know your risk level instantly"
@@ -216,7 +216,7 @@ const Features = () => {
                           <h4 className="font-medium mt-6 mb-3">Health Insights</h4>
                           <div className="bg-cardio-blue-50 p-4 rounded-lg">
                             <div className="flex items-center mb-2">
-                              <Brain className="h-5 w-5 text-cardio-blue-600 mr-2" />
+                              <Zap className="h-5 w-5 text-cardio-blue-600 mr-2" />
                               <h5 className="font-medium text-gray-800">AI Recommendation</h5>
                             </div>
                             <p className="text-sm text-gray-600">
