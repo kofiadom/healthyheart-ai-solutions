@@ -29,12 +29,12 @@ const CallToAction = () => {
           </div>
           
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6 leading-tight">
-            Be Among the First to Experience AI-Powered Heart Health Management
+            Be Among the First to Experience AI-Powered Heart Health Management - Completely Free
           </h2>
           
           <p className="text-lg md:text-xl text-blue-100 mb-8 max-w-3xl mx-auto">
             Join our exclusive waitlist and get early access to CardioMed when we launch. 
-            Plus, receive 3 months of premium features absolutely free.
+            Our AI-powered hypertension management app will be completely free for all Ghanaians - no subscription fees, no hidden costs.
           </p>
           
           {/* Waitlist Form */}
@@ -84,11 +84,11 @@ const CallToAction = () => {
             <div className="flex flex-col items-center text-center">
               <div className="h-12 w-12 rounded-full bg-white/20 flex items-center justify-center mb-3">
                 <svg className="h-6 w-6 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1" />
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                 </svg>
               </div>
-              <h4 className="font-medium mb-1">3 Months Free</h4>
-              <p className="text-sm text-blue-100">Premium features worth GH₵150 completely free</p>
+              <h4 className="font-medium mb-1">100% Free Forever</h4>
+              <p className="text-sm text-blue-100">No subscription fees, no hidden costs - completely free for all Ghanaians</p>
             </div>
             
             <div className="flex flex-col items-center text-center">
