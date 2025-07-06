@@ -29,12 +29,12 @@ const CallToAction = () => {
           </div>
           
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6 leading-tight">
-            Be Among the First to Experience AI-Powered Heart Health Management - Completely Free
+            Be Among the First to Experience Free AI-Powered Heart Health Management
           </h2>
           
           <p className="text-lg md:text-xl text-blue-100 mb-8 max-w-3xl mx-auto">
-            Join our exclusive waitlist and get early access to CardioMed when we launch. 
-            Our AI-powered hypertension management app will be completely free for all Ghanaians - no subscription fees, no hidden costs.
+            Join our waitlist and get early access to CardioMed when we launch. 
+            Our AI-powered hypertension management app is free for all Ghanaians.
           </p>
           
           {/* Waitlist Form */}
@@ -87,23 +87,24 @@ const CallToAction = () => {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                 </svg>
               </div>
-              <h4 className="font-medium mb-1">100% Free Forever</h4>
-              <p className="text-sm text-blue-100">No subscription fees, no hidden costs - completely free for all Ghanaians</p>
+              <h4 className="font-medium mb-1">Completely Free</h4>
+              <p className="text-sm text-blue-100">No subscription fees or hidden costs</p>
             </div>
             
             <div className="flex flex-col items-center text-center">
               <div className="h-12 w-12 rounded-full bg-white/20 flex items-center justify-center mb-3">
-                <Users className="h-6 w-6 text-white" />
+                <svg className="h-6 w-6 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
+                </svg>
               </div>
-              <h4 className="font-medium mb-1">Exclusive Community</h4>
-              <p className="text-sm text-blue-100">Join our private WhatsApp group for health tips</p>
+              <h4 className="font-medium mb-1">AI-Powered Insights</h4>
+              <p className="text-sm text-blue-100">Get personalized health recommendations</p>
             </div>
           </div>
 
           <div className="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-4">
             <Button 
-              variant="outline" 
-              className="border-2 border-white hover:bg-white/10 text-white px-6 py-3 h-auto rounded-full text-lg font-medium transition-all duration-300"
+              className="bg-white hover:bg-gray-100 text-cardio-blue-700 px-6 py-3 h-auto rounded-full text-lg font-medium transition-all duration-300"
             >
               <Mail className="mr-2 h-5 w-5" />
               Partner With Us
