@@ -200,9 +200,9 @@ const Impact = () => {
 
         {/* Partners */}
         <div>
-          <h3 className="text-xl font-medium text-center text-gray-700 mb-8">Trusted by Leading Organizations</h3>
+          <h3 className="text-xl font-medium text-center text-gray-700 mb-8">Trusted by Leading Organizations & Accelerators</h3>
 
-          <div className="flex flex-wrap justify-center items-center gap-12 opacity-70 space-x-7">
+          <div className="flex flex-wrap justify-center items-center gap-12 opacity-70 space-x-7 mb-12">
             <div className="w-auto h-auto">
               <img
                 src="/okb.jpeg"
@@ -214,7 +214,48 @@ const Impact = () => {
             <div className='flex justify-center items-center'>
               <a href='http://worldwide-studios.org' className='text-4xl font-bold'>worldwide-studios.org</a>
             </div>
+          </div>
 
+          {/* Microsoft for Startups Section */}
+          <div className="bg-white rounded-2xl shadow-card p-8 border border-gray-100">
+            <div className="flex flex-col md:flex-row items-center justify-center gap-8">
+              <div className="flex items-center gap-4">
+                <div className="w-16 h-16 bg-gradient-to-r from-blue-500 to-blue-600 rounded-lg flex items-center justify-center">
+                  <svg className="w-10 h-10 text-white" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M0 0h11.377v11.372H0zm12.623 0H24v11.372H12.623zM0 12.623h11.377V24H0zm12.623 0H24V24H12.623z"/>
+                  </svg>
+                </div>
+                <div>
+                  <h4 className="text-xl font-bold text-gray-900">Microsoft for Startups</h4>
+                  <p className="text-sm text-gray-600">Founders Hub Member</p>
+                </div>
+              </div>
+              
+              <div className="text-center md:text-left">
+                <div className="inline-block px-4 py-1.5 mb-3 rounded-full bg-blue-50 border border-blue-200">
+                  <span className="text-blue-700 font-medium text-sm">🚀 Accelerating Innovation</span>
+                </div>
+                <p className="text-gray-700 max-w-md">
+                  CardioMed is proud to be part of Microsoft for Startups, leveraging cutting-edge cloud technology 
+                  and AI capabilities to revolutionize healthcare in Ghana.
+                </p>
+              </div>
+            </div>
+            
+            <div className="mt-6 grid grid-cols-1 md:grid-cols-3 gap-4 text-center">
+              <div className="bg-blue-50 rounded-lg p-4">
+                <div className="text-2xl font-bold text-blue-600 mb-1">$150K</div>
+                <p className="text-sm text-gray-600">Azure Credits</p>
+              </div>
+              <div className="bg-blue-50 rounded-lg p-4">
+                <div className="text-2xl font-bold text-blue-600 mb-1">AI/ML</div>
+                <p className="text-sm text-gray-600">Advanced Tools</p>
+              </div>
+              <div className="bg-blue-50 rounded-lg p-4">
+                <div className="text-2xl font-bold text-blue-600 mb-1">Global</div>
+                <p className="text-sm text-gray-600">Scale & Support</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
