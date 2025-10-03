@@ -1,7 +1,11 @@
 import { ArrowRight, Play } from 'lucide-react';
 import { Button } from "@/components/ui/button";
+import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog";
+import { useState } from 'react';
 
 const Hero = () => {
+  const [isVideoOpen, setIsVideoOpen] = useState(false);
+
   return (
     <section className="relative pt-24 pb-20 md:pt-32 md:pb-28 overflow-hidden">
       {/* Background Elements */}
@@ -31,10 +35,25 @@ const Hero = () => {
                 Join Waitlist - Get Early Access
                 <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
               </Button>
-              <Button variant="outline" className="w-full sm:w-auto border-cardio-blue-300 group" size="lg">
-                <Play className="mr-2 h-5 w-5" />
-                Watch Demo
-              </Button>
+              <Dialog open={isVideoOpen} onOpenChange={setIsVideoOpen}>
+                <DialogTrigger asChild>
+                  <Button variant="outline" className="w-full sm:w-auto border-cardio-blue-300 group" size="lg">
+                    <Play className="mr-2 h-5 w-5" />
+                    Watch Demo
+                  </Button>
+                </DialogTrigger>
+                <DialogContent className="max-w-4xl p-0">
+                  <div className="relative pt-[56.25%]">
+                    <iframe
+                      src="https://streamable.com/e/seiqpg"
+                      className="absolute top-0 left-0 w-full h-full"
+                      frameBorder="0"
+                      allowFullScreen
+                      allow="autoplay"
+                    />
+                  </div>
+                </DialogContent>
+              </Dialog>
             </div>
 
             {/* Trust indicators */}
